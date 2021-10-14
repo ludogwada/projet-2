@@ -400,39 +400,25 @@ header{
   margin: 40px;
 }
 
-nav{
-  display: flex;
-  align-items: center;
-}
 
-nav ul{
-  display: flex;
-}
 
-nav li {
+
+.header-li {
+  display: inline-block;
   list-style: none;
+  text-align: center;
 }
 
-.header-li{
-  display: list-item;
-  font-size: 18px;
-  width: 200px;
-  padding-left: 30px;
-  padding-right: 30px;
-  margin-left: 5px;
-}
 .texte-li{
-  width: 200px;
-  padding-left: 15%;
-  padding-right: 15%;
-  padding-bottom: 15%;
+ padding-left: 10%;
+ padding-right: 10%;
+ padding-top: 28px;
+ margin-right: 100px;
 }
 
-.header-li a:hover {
+ .header-li a:hover{
   color: #0065FC;
-  border-top:1px solid #0065FC;
-  border-width: 200px;
-  padding-top: 27px;
+  border-top:2px solid #0065FC;
 }
 
 /**RECHERCHE**/
