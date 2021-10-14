@@ -399,6 +399,9 @@ header{
   height: 60px;
   margin: 40px;
 }
+#logo-mobile{
+  display: none;
+}
 
 
 

@@ -360,17 +360,38 @@ header{
   justify-content: center;
   align-items: center;
   height: min-content;
+}
+ 
+#logo{
+  display: none;
+} 
+
+
+#logo-mobile{
+  display: flex;
+  max-width: 80%;
+  height: 75px;
+}
+.header-ul{
+  padding-inline-start: 0;
+  
+}
+.header-li{
  
 }
-#logo{
-  max-width: 100%;
-  height: auto;
-}
-
-li{
-  border-color: #727272;
-  border-bottom: 2px solid;
+.texte-li{
+  border-bottom: 2px solid #f2f2f2;
   padding-bottom: 20px;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-right: 0;
+}
+.texte-mobile{
+  width: 200px;
+  margin-left: 30px;
+  margin-right: 120px;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .header-li a:hover{
