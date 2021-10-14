@@ -503,7 +503,7 @@ h2{
 .titre-filtre{
   margin-right: 3%;
 }
-.filtres-mobile{
+.liste-filtres{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -532,10 +532,10 @@ h2{
   overflow: visible;
 }
 .texte-filtre{
-  position: relative;
+  text-align: center;
   font-weight: bold;
   padding-left: 10px;
-  padding-right: 20px;
+  padding-right: 10px;
 }
 .lien-filtre:hover{
   color: #0065FC;
