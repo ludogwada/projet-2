@@ -350,8 +350,9 @@ template {
   display: none;
 }
 body{
-  width: 100%;
   max-width: 768px;
+  width: max-content;
+  
 }
 
 header{
