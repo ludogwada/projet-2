@@ -22,6 +22,12 @@ header{
   max-width: 80%;
   height: 75px;
 }
+.titre-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
 
 .header-ul{
   display: flex;
@@ -66,9 +72,8 @@ padding-bottom: 20px;
   flex-direction: column;
 }
 
-.titre-page{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
+.résultat{
+  flex-direction: column-reverse;
+  width: 100%;
 }
+

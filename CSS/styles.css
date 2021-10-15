@@ -577,6 +577,7 @@ width: 100%;
 .résultat{
   display: flex;
   align-content: flex-start;
+  width: 100%;
 }
 
 .titre-hébergements{
