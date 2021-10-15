@@ -56,11 +56,16 @@ padding-bottom: 20px;
 
 .filtres{
   flex-direction: column;
+  align-items: flex-start;
+}
+.lien-filtre{
+  margin-bottom: 20px;
 }
 
-.liste-filtres{
+.groupe2filtre{
   flex-direction: column;
 }
+
 .titre-page{
   display: flex;
   flex-direction: column;

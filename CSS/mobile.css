@@ -86,6 +86,15 @@ padding-bottom: 20px;
   flex-wrap: wrap;
 }
 
+.lien-filtre{
+  margin-bottom: 20px;
+}
+
+.groupe2filtre{
+  flex-direction: column;
+}
+
+
 .titre-page{
   display: flex;
   flex-direction: column;

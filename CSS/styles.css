@@ -413,13 +413,13 @@ header{
 }
 
 .texte-li{
- padding-left: 10%;
- padding-right: 10%;
- padding-top: 28px;
- margin-right: 100px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 28px;
+  margin-right: 100px;
 }
 
- .header-li a:hover{
+.header-li a:hover{
   color: #0065FC;
   border-top:2px solid #0065FC;
 }
@@ -501,17 +501,22 @@ h2{
   align-items: center;
   margin-top: 2%;
   margin-bottom: 2%;
+  width: 100%;
 }
 
 .titre-filtre{
   margin-right: 3%;
 }
-.liste-filtres{
+.groupe1filtre{
   display: flex;
   flex-direction: row;
-  align-items: center;
-  width: 100%;
 }
+
+.groupe2filtre{
+  display: flex;
+width: 100%;
+}
+
 .lien-filtre{
   display: flex;
   justify-content: space-between;
@@ -520,7 +525,7 @@ h2{
   border-radius: 30px;
   height: 50px;
   width: max-content;
-  margin-right: 2%;
+  margin-right: 20px;
 }
 
 .icone-filtre{
@@ -728,7 +733,7 @@ h2{
   display: flex;
   flex-direction: column;
   justify-content: center;
-
+  
   height: 100%;
   margin-left: 3%;
   margin-right: 3%;
@@ -743,7 +748,7 @@ h2{
   width: 100%;
   min-width: 400px;
   margin-bottom: 5%;
-    
+  
   border: 5px white solid;
   border-radius: 20px;
   background-color: white;
