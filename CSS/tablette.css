@@ -1,8 +1,10 @@
 
 body{
-  width: 100%;
     max-width: 992px;
     min-width: 768px;
+}
+main{
+  margin: 0;
 }
 header{
   display: flex;
@@ -68,12 +70,33 @@ padding-bottom: 20px;
   margin-bottom: 20px;
 }
 
-.groupe2filtre{
-  flex-direction: column;
-}
+
 
 .résultat{
   flex-direction: column-reverse;
   width: 100%;
 }
 
+.populaire{
+margin-bottom: 25px;
+}
+
+.populaire-groupe{
+  align-items: center;
+}
+.carte-populaire{
+  width: 100%;
+}
+
+.hébergements{
+  margin-right: 0;
+  margin-left: 3%;
+}
+
+.activités{
+  margin-left: 3%;
+}
+
+.footer{
+  margin-left: 2%;
+}
