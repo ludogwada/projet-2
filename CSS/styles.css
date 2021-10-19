@@ -452,10 +452,9 @@ width: 100%;
 
 .lien-filtre{
   display: flex;
-  justify-content: space-between;
   align-items: center;
   border: 2px solid #F2F2F2;
-  border-radius: 25px;
+  border-radius: 30px;
   height: 50px;
   width: max-content;
   margin-right: 20px;
@@ -470,8 +469,9 @@ width: 100%;
   font-size: 20px;
   color: #0065FC;
   background-color: #DEEBFF;
-  overflow: visible;
+  margin-left: -2px;
 }
+
 .texte-filtre{
   text-align: center;
   font-weight: bold;
@@ -481,6 +481,7 @@ width: 100%;
 .lien-filtre:hover{
   background-color: #DEEBFF;
   color: #0065FC;
+  border: #DEEBFF;
 }
 
 .info{
