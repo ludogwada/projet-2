@@ -1,7 +1,6 @@
 body{
   max-width: 768px;
   min-width: 500px;
-  
 }
 
 header{
@@ -10,9 +9,9 @@ header{
   justify-content: center;
   align-items: center;
   height: min-content;
-  margin-left: 5px;
   width: 100%;
 }
+
 main{
   margin-left: 5px;
   margin-right: 5px;
@@ -22,13 +21,13 @@ main{
   display: none;
 } 
 
-
 #logo-mobile{
   display: flex;
   max-width: 80%;
   height: 75px;
   margin-bottom: 3%;
 }
+
 .header-nav{
   width: 100%;
   margin-bottom: 5%;
@@ -40,45 +39,49 @@ main{
   text-align:start;
   align-items: flex-start;
 }
+
 h1{
   font-size: 32px;
 }
-
 
 .header-ul{
   display: flex;
   justify-content: center;
   width: 100%;
   padding-inline-start: 0;
-  
-}
+  }
+
 .header-li{
+  display: flex;
+  text-align: center;
   width: 50%;
 }
+
 .texte-li{
-  font-size: 18px;
-  padding-left: 33%;
-  padding-right: 33%;
+    font-size: 18px;
+  padding-left: 0;
+  padding-right: 0;
   margin-right: 0;
   margin-left: 0;
 }
+
 .texte-mobile{
-  width: 200px;
-  padding-left: 40%;
-  padding-right: 40%;
+  width: 100%;
   border-bottom: 4px solid #f2f2f2;
   padding-bottom: 20px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .li-hébergements{
-  color: #0065FC;
+  width: 100%;
   border-top: none;
   border-bottom:4px solid #0065FC;
   padding-bottom: 20px;
 }
 
 .titre-page{
-margin-bottom: 10%;
+  margin-bottom: 10%;
 }
 
 #bouton-rechercher{
@@ -126,6 +129,7 @@ margin-bottom: 10%;
   flex-direction: column-reverse;
   width: 100%;
 }
+
 .populaire{
   min-width: 450px;
   width: 100%;
@@ -180,6 +184,7 @@ margin-bottom: 10%;
   align-items: flex-start;
   margin-left: 0;
 }
+
 .groupe{
   width: 80%;
   flex-wrap: nowrap;
@@ -238,6 +243,7 @@ margin-bottom: 10%;
   border-radius: 20px;
   background-color: white;
 }
+
 .carte-activité-right{
   text-align: start;
   height: 100%;

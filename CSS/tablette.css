@@ -4,6 +4,7 @@ body{
   max-width: 992px;
   min-width: 768px;
 }
+
 header{
   display: flex;
   flex-direction: column; 
@@ -23,6 +24,7 @@ header{
   max-width: 80%;
   height: 75px;
 }
+
 .titre-page{
   display: flex;
   flex-direction: column;
@@ -33,40 +35,42 @@ header{
 }
 
 .header-nav{
-  display: flex;
+  width: 100%;
 }
 
 .header-ul{
   display: flex;
-  justify-items: center;
-  width: 750px;
-  padding-inline-start: 0;
-  list-style-type: none;
-  
-}
-.header-li{
+  justify-content: center;
   width: 100%;
+  padding-inline-start: 0;
+}
+
+.header-li{
+  display: flex;
+  text-align: center;
+  width: 50%;
 }
 
 .texte-li{
   font-size: 18px;
-  padding-left: 30%;
-  padding-right: 30%;
+  padding-left: 0;
+  padding-right: 0;
   margin-right: 0;
   margin-left: 0;
 }
+
 .texte-mobile{
-  width: 200px;
-  padding-left: 40%;
-  padding-right: 40%;
-  border-bottom: 2px solid #f2f2f2;
+  width: 100%;
+  border-bottom: 4px solid #f2f2f2;
   padding-bottom: 20px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .li-hébergements{
-  color: #0065FC;
+  width: 100%;
   border-top: none;
-  border-bottom:2px solid #0065FC;
+  border-bottom:4px solid #0065FC;
   padding-bottom: 20px;
 }
 
@@ -74,6 +78,7 @@ header{
   flex-direction: column;
   align-items: flex-start;
 }
+
 .lien-filtre{
   margin-bottom: 20px;
 }
@@ -96,8 +101,8 @@ header{
 }
 
 .titre-populaire{
-width: 90%;
-align-items: center;
+  width: 90%;
+  align-items: center;
 }
 
 .populaire-groupe{
@@ -139,7 +144,6 @@ align-items: center;
   max-width: 100%;
   margin-bottom: 5%;
   box-shadow: 5px 5px 5px 1px #F2F2F2;
-
 }
 
 .activités{
@@ -159,6 +163,7 @@ align-items: center;
   margin-block-end: 2%;
   margin-block-start: 0;
 }
+
 .titre-activités{
   margin-left: 2%;
 }
@@ -175,6 +180,7 @@ align-items: center;
   border-radius: 20px;
   background-color: white;
 }
+
 .carte-activité-right{
   text-align: start;
   height: 100%;
@@ -242,7 +248,6 @@ align-items: center;
   height: 180px;
   width: 100%;
 }
-
 
 .footer{
   height: max-content;
