@@ -258,6 +258,10 @@ header{
   width: 100%;
 }
 
+.titre-carte-activité h3{
+  padding-top: 3%;
+}
+
 .footer{
   height: max-content;
 }

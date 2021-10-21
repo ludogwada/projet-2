@@ -446,7 +446,7 @@ header{
 
 .groupe2filtre{
   display: flex;
-width: 100%;
+  width: 100%;
 }
 
 .lien-filtre{
@@ -581,13 +581,13 @@ width: 100%;
   align-content: center;
   margin-left: 5%;
 }
-  
+
 .carte-titre h3{
   font-size: 18px;
   font-weight: bold;
   margin-block-start: 10px;
   margin-block-end: 5px;
-  }
+}
 
 .carte-prix p{
   font-weight: normal;
@@ -599,7 +599,7 @@ width: 100%;
 .carte-note{
   margin-block-start: 5px;
   color: #0065FC;
-  }
+}
 
 .more{
   font-weight: bold;
@@ -633,7 +633,7 @@ width: 100%;
   align-items: center;
   margin-left: 8%;
   margin-right: 8%;
-  }
+}
 
 .titre-populaire h2{
   margin-top: 3%;
@@ -726,9 +726,13 @@ width: 100%;
 .titre-carte-activité h3{
   padding-left: 15px;
   font-size: 18px;
+  padding-top: 5%;
+  margin-top: 0;
+  padding-bottom: 18px;
+  margin-bottom: 0;
 }
 
-.carte-activité{
+.carte-activité{ 
   text-align: start;
   height: 550px;
   width: 100%;
