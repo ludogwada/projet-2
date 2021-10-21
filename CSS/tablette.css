@@ -183,7 +183,6 @@ header{
   margin-left: 1%;
   margin-right: 1%;
   margin-bottom: 4%;
-  border: 5px white solid;
   border-radius: 20px;
   background-color: white;
 }
@@ -196,7 +195,6 @@ header{
   margin-left: 1%;
   margin-right: 1%;
   margin-bottom: 1%;
-  border: 5px white solid;
   border-radius: 20px;
   background-color: white;
 }
@@ -204,11 +202,9 @@ header{
 .petite-carte-activité1{
   text-align: start;
   height: 250px;
-  width: 101%;
+  width: 100%;
   min-width: 270px;
-  margin-left: -3px;
   margin-bottom: 5%;
-  border: 5px white solid;
   border-radius: 20px;
   background-color: white;
 }
@@ -216,11 +212,9 @@ header{
 .petite-carte-activité2{
   text-align: start;
   height: 250px;
-  width: 101%;
+  width: 100%;
   min-width: 270px;
-  margin-left: -3px;
   margin-bottom: 1%;
-  border: 5px white solid;
   border-radius: 20px;
   background-color: white;
 }
@@ -228,12 +222,10 @@ header{
 .petite-carte-activité3{
   text-align: start;
   height: 250px;
-  width: 101%;
+  width: 100%;
   min-width: 270px;
-  margin-left: -3px;
   margin-right: 0;
   margin-bottom: 5%;
-  border: 5px white solid;
   border-radius: 20px;
   background-color: white;
 }
