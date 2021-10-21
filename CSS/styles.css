@@ -360,10 +360,6 @@ header{
 
 /**RECHERCHE**/
 
-.recherche{
-  margin-left: 20px;
-} 
-
 .sous-titre{
   font-weight: normal;
   margin-top: 1%;
@@ -435,6 +431,7 @@ header{
   align-items: center;
   margin-top: 2%;
   margin-bottom: 2%;
+  margin-left: 1%;
   width: 100%;
 }
 
@@ -485,6 +482,7 @@ width: 100%;
   background-color: #DEEBFF;
   color: #0065FC;
   border: #DEEBFF;
+  box-shadow: 5px 5px 5px 1px #F2F2F2;
 }
 
 .info{
@@ -492,6 +490,7 @@ width: 100%;
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 2%;
+  margin-left: 1%;
 }
 
 .icone-info{
@@ -632,12 +631,11 @@ width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 25px;
-  margin-right: 25px;
+  margin-left: 8%;
+  margin-right: 8%;
   }
 
 .titre-populaire h2{
-  padding-left: 2%;
   margin-top: 3%;
   margin-bottom: 3%;
 }
@@ -708,7 +706,6 @@ width: 100%;
 /**Activités**/
 
 .activités{
-  justify-content: space-between;
   height: 600px;
   margin-top: 5%;
   margin-bottom: 5%;
@@ -752,25 +749,25 @@ width: 100%;
   text-align: start;
   height: 342px;
   width: 100%;
-  margin-bottom: 10%;
+  margin-bottom: 26px;
   border-radius: 20px;
   background-color: white;
 }
 
 .petite-carte-activité2{
   text-align: start;
-  height: 170px;
+  height: 180px;
   width: 100%;
-  margin-bottom: 10%;
+  margin-bottom: 25px;
   border-radius: 20px;
   background-color: white;
 }
 
 .petite-carte-activité3{
   text-align: start;
-  height: 257px;
+  height: 262px;
   width: 100%;
-  margin-bottom: 10%;
+  margin-bottom: 26px;
   border-radius: 20px;
   background-color: white;
 }
@@ -792,7 +789,7 @@ width: 100%;
 }
 
 .carte-image-activité3{
-  height: 115px;
+  height: 127px;
   width: 100%;
   position: relative;
   overflow: hidden;
@@ -800,7 +797,7 @@ width: 100%;
 }
 
 .carte-image-activité4{
-  height: 200px;
+  height: 207px;
   width: 100%;
   position: relative;
   overflow: hidden;
