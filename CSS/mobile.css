@@ -75,9 +75,19 @@ h1{
 
 .li-hébergements{
   width: 100%;
-  border-top: none;
-  border-bottom:4px solid #0065FC;
+  border-bottom:4px solid #f2f2f2;
   padding-bottom: 20px;
+}
+
+.li-hébergements:hover{
+  border-top: none;
+  color: #0065FC;
+  border-bottom:4px solid #0065FC;
+}
+.texte-mobile:hover{
+  border-top: none;
+  color: #0065FC;
+  border-bottom:4px solid #0065FC;
 }
 
 .titre-page{
